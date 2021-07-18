@@ -50,7 +50,8 @@ Route::get('/clear-view-cache', function () {
 
 //Trang Chủ
 Route::get('/', function () {
-    return view('frontend/homepage/home');
+//    return view('frontend/homepage/home');
+    dd('hi');
 });
 
 //Admin
